@@ -1,13 +1,21 @@
+import argparse
 from pathlib import Path
 
 import torch
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 from torch.utils.data import DataLoader
+from sklearn.metrics import (
+    classification_report,
+    confusion_matrix,
+    accuracy_score,
+    f1_score,
+)
 
-from dataset import FashionDataset
-from model import create_resnet18
-from transforms import eval_transform
+from ml.core.dataset import FashionDataset
+from ml.core.model import create_resnet18
+from ml.core.transforms import eval_transform
 
 
 CLASS_NAMES = [

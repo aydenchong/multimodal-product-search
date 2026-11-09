@@ -6,9 +6,9 @@ import torch.nn as nn
 from torch.utils.data import DataLoader
 from sklearn.metrics import accuracy_score, f1_score
 
-from dataset import FashionDataset
-from model import create_resnet18
-from transforms import train_transform, eval_transform
+from ml.core.dataset import FashionDataset
+from ml.core.model import create_resnet18
+from ml.core.transforms import train_transform, eval_transform
 
 
 # Configuration

@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import torch
-from dataset import FashionDataset
-from transforms import train_transform, eval_transform
+from ml.core.dataset import FashionDataset
+from ml.core.transforms import train_transform, eval_transform
 
 
 # Load the same training split with different transforms

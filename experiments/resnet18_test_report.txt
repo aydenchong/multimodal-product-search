@@ -1,0 +1,15 @@
+ResNet18 TEST Evaluation
+Images: 6475
+Accuracy: 98.6100%
+Macro F1: 97.9370%
+
+               precision    recall  f1-score   support
+
+      Apparel       0.99      0.99      0.99      3094
+  Accessories       0.98      0.97      0.97      1682
+     Footwear       0.99      1.00      1.00      1379
+Personal Care       0.95      0.96      0.96       320
+
+     accuracy                           0.99      6475
+    macro avg       0.98      0.98      0.98      6475
+ weighted avg       0.99      0.99      0.99      6475
