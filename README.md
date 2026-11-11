@@ -14,7 +14,7 @@ ShopSense AI is an end-to-end machine learning application that classifies uploa
 - **Interactive interface:** Drag-and-drop upload, preview, validation, loading/error states, predicted category, and top-five retrieval results.
 - **Containerized application:** React/Nginx frontend and FastAPI backend orchestrated with Docker Compose.
 - **Automated checks:** GitHub Actions workflow for backend tests, frontend build, and Docker Compose configuration validation.
-
+![ShopSense AI Demo](docs/images/demo.png)
 ## Architecture
 
 ```mermaid
