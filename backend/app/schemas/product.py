@@ -12,6 +12,7 @@ class SimilarProduct(BaseModel):
     category: str
     article_type: str
     similarity: float
+    image_url: str | None = None
 
 
 class AnalysisResponse(BaseModel):

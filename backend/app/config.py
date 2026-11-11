@@ -15,6 +15,8 @@ PRODUCT_METADATA_PATH = (
 
 CLIP_MODEL_NAME = "openai/clip-vit-base-patch32"
 
+PRODUCT_IMAGE_DATASET = "ashraq/fashion-product-images-small"
+
 MAX_UPLOAD_BYTES = 5 * 1024 * 1024
 DEFAULT_TOP_K = 5
 MAX_TOP_K = 20
